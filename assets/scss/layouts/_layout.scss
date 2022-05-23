@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: $font-family-abel;
+	background-color: $clr-light-100;
+	letter-spacing: 1px;
+	transition: background-color 0.25s color 0.25s;
+}
+button,
+span,
+div,
+input {
+	font: inherit;
+	color: inherit;
+	border: none;
+	//background-color: transparent;
+	outline: none;
+}
+ul {
+	list-style: none;
+}
+
+img {
+	//max-width: 100%;
+	display: block;
+}
+input {
+	border: 1px solid $clr-teritary-100;
+
+	width: 38rem;
+	line-height: 5rem;
+	border-radius: 0.7rem;
+	margin: 1rem 0;
+	padding: 0 1rem;
+	&:focus {
+		box-shadow: 0 0 0 2px $clr-primary-400;
+	}
+}
+button {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 6rem;
+}
+

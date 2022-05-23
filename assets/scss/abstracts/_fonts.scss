@@ -1,0 +1,40 @@
+@import 'type-scale' ;
+@import 'media-query' ;
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,500,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0;300;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Abel:wght@300;500;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2؟family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+
+$font-family-opensans: 'Open Sans', sans-serif;
+$font-family-poppins: 'Poppins', sans-serif;
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-urbanist: 'Urbanist', sans-serif;
+$font-family-abel: 'Abel', sans-serif;
+$font-family-fira: 'Fira Sans Condensed', sans-serif;
+$font-family-roboto: 'Roboto', sans-serif;
+
+
+$font-sizes: (
+	xxsm:.8rem,
+	xsm: 1.2rem,
+	sm: 1.4rem,
+	md: 1.7rem,
+	mdx: 2rem,
+    mdxx: 2.3rem,
+	lg:2.6rem,
+	lgx: 3rem,
+	lgxx: 4rem,
+);
+$font-weights: (
+	regular: 300,
+	medium: 500,
+	bold: 800,
+);
+
